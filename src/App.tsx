@@ -10,12 +10,12 @@ function App() {
           <div className="Container">
             <ul className="Items">
               <li className="Element" id="un">
-                <img className="ProfilePic"  src="/Photo gros plan.jpg" />
+                <img className="ProfilePic"  src="./images/Photo gros plan.jpg" />
               </li>
               <li className="Element" id="deux">
                 <h1> Hey, I am <span style={{"color": "#88A4E6"}}>Léo-Paul DOAT</span></h1>
                 <p>
-                  I am Junior French<span> <img className="FranceLogo" src="/france.svg"/></span> web developer.
+                  I am Junior French<span> <img className="FranceLogo" src="/svg/france.svg"/></span> web developer.
                   After studying for 4 years, I am now looking for professional opportunities in my favourite field.
                 </p>
                 <p>
