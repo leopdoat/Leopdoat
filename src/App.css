@@ -1,42 +1,124 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+h1, p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.MiddlePage {
+  width: 100%;
+  height: 100vh;
+  padding: 6rem 2rem 2rem;
+  background-color: #0C121E;
+  align-content:baseline;
+  justify-content: center;
+  display: flex;
+}
+
+.Container{
+  max-width: 800PX;
+  position: fixed;
+  /* outline: auto;
+  outline-width: 10px;
+  outline-color: white; */
+  padding: 6rem 2rem 2rem;
+  background-color: #0C121E;
+}
+
+.Items {
+  display: grid;
+  grid-template-areas:
+  "deux deux un";
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.ProfilePic {
+  width: 150px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.Element {
+    /* outline: auto;
+    outline-width: 10px;
+    outline-color: white; */
+  background-color: #0C121E;
+  padding: 0.5rem 0.5rem 0.5rem;
+  color: #FFF;
+  max-width: 60VW;
+  /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0004); */
+    /* line-height: 0.7rem;
+  outline: none;
+  animation: animate 5s infinite; */
+}
+
+.FranceLogo {
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.Linked {
+  color: #88A4E6;
+}
+
+.LinkedInLogo {
+  width: 1.5rem;
+  height: 1rem;
+}
+
+@media screen and (max-width: 1111px) {
+  .Items {
+    display: grid;
+    grid-template-areas:
+    "deux";
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  #un {
+    display: none;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#un {
+  display: flex;
+  grid-area: un;
+  width: fit-content;
+  background-color: #0C121E;
 }
 
-.card {
-  padding: 2em;
+#deux {
+  grid-area: deux;
 }
 
-.read-the-docs {
-  color: #888;
+#trois {
+  grid-area: trois;
+}
+
+#quatre {
+  grid-area: quatre;
+}
+
+#cinq {
+  grid-area: cinq;
 }

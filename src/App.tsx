@@ -1,33 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Nav from './components/Nav'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='App'>
+        <Nav />
+        <div className='MiddlePage'>
+          <div className="Container">
+            <ul className="Items">
+              <li className="Element" id="un">
+                <img className="ProfilePic"  src="./src/assets/Photo gros plan.jpg" />
+              </li>
+              <li className="Element" id="deux">
+                <h1> Hey, I am <span style={{"color": "#88A4E6"}}>Léo-Paul DOAT</span></h1>
+                <p>
+                  I am Junior French<span> <img className="FranceLogo" src="./src/assets/france.svg"/></span> web developer.
+                  After studying for 4 years, I am now looking for professional opportunities in my favourite field.
+                </p>
+                <p>
+                  On this website, you will find all my skills about programming but also my hobbies besides working on a computer.
+                </p>
+                <p>
+                  If you are interested by my profile, don't hesitate to contact me on <a className='Linked' href='https://www.linkedin.com/in/léo-paul-doat'>  LinkdIn</a> or by e-mail (leopauldoat@gmail.com).
+                  You can also find the code of this website on my <a className="Linked" href='https://github.com/leopdoat/Leopdoat'>GitHub</a>.
+                </p>
+                <button></button>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

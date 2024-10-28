@@ -1,0 +1,119 @@
+.Navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    padding: 1rem;
+    background-color: #161D2F;
+    color: #FFF;
+}
+
+.NavbarLinks {
+    display: flex;
+}
+
+
+.NavbarLink {
+    margin: 2rem;
+    padding: 0 0.3rem;
+    color: inherit;
+}
+
+.NavbarLink:hover {
+    color: #88A4E6;
+    border-radius: 1rem;
+    transition: all 0.5s;
+}
+
+
+.NavbarBurger {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 1111px) {
+    .NavbarLinks{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        right: -100vw;
+        bottom: 0;
+        height: 100vh;
+        padding: 2rem;
+        visibility: hidden;
+        background-color: #161D2F;
+    }
+
+    .showNav .NavbarLinks{
+        width: 100vw;
+        right: 0;
+        visibility: visible;
+        z-index: 1;
+    }
+
+    .NavbarLink {
+        display: block;
+        padding: 1.5rem;
+        font-size: 5vw;
+    }
+
+    .NavbarBurger {
+        display: block;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .NavbarBurger:hover {
+        cursor: pointer;
+        /* background-color: #ffbd59; */
+        border-radius: 100%;
+        background-size: contain;
+        transition: all .8s;
+    }
+
+    .BurgerBar,
+    .BurgerBar::before,
+    .BurgerBar::after {
+        display: block;
+        width: 40px;
+        height: 3px;
+        position: relative;
+        border-radius: 3px;
+        background: #FFF;
+        transition: all .5s ease-in-out;
+    }
+
+    .BurgerBar::before,
+    .BurgerBar::after {
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+
+    .BurgerBar::before {
+        transform: translateY(-12px);
+    }
+    .BurgerBar::after {
+        transform: translateY(12px);
+    }
+
+    .showNav .BurgerBar::before {
+        transform: rotate(45deg);
+    }
+
+    .showNav .BurgerBar {
+        background: transparent;
+    }
+
+    .showNav .BurgerBar::after {
+        transform: rotate(-45deg);
+    }
+}
