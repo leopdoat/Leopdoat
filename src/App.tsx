@@ -10,7 +10,7 @@ function App() {
           <div className="Container">
             <ul className="Items">
               <li className="Element" id="un">
-                <img className="ProfilePic"  src="./public/images/Photo gros plan.jpg" />
+                <img className="ProfilePic"  src="./images/Photo_gros_plan.jpg" />
               </li>
               <li className="Element" id="deux">
                 <h1> Hey, I am <span style={{"color": "#88A4E6"}}>Léo-Paul DOAT</span></h1>
@@ -22,7 +22,7 @@ function App() {
                   On this website, you will find all my skills about programming but also my hobbies besides working on a computer.
                 </p>
                 <p>
-                  If you are interested by my profile, don't hesitate to contact me on <a className='Linked' href='https://www.linkedin.com/in/léo-paul-doat'>  LinkdIn</a> or by e-mail (leopauldoat@gmail.com).
+                  If you are interested by my profile, don't hesitate to contact me on <a className='Linked' href='https://www.linkedin.com/in/léo-paul-doat'>  LinkedIn</a> or by e-mail (leopauldoat@gmail.com).
                   You can also find the code of this website on my <a className="Linked" href='https://github.com/leopdoat/Leopdoat'>GitHub</a>.
                 </p>
                 <button></button>
