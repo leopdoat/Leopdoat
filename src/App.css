@@ -79,6 +79,11 @@ a {
   color: #88A4E6;
 }
 
+.Linked:hover {
+  /* on hover, Change color */
+  color: #ffbd59;
+}
+
 .LinkedInLogo {
   width: 1.5rem;
   height: 1rem;

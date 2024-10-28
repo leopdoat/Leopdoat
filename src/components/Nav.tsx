@@ -13,30 +13,30 @@ function Nav() {
             <Logo />
             <ul className="NavbarLinks">
                 <li className="NavbarItem">
-                    <a href="/" className="NavbarLink">
+                    <a href="/Leopdoat/" className="NavbarLink">
                         Léo-Paul
                     </a>
                 </li>
                 <li className="NavbarItem">
-                    <a href="/skills" className="NavbarLink">
+                    <a href="/Leopdoat/skills" className="NavbarLink">
                         Skills
                     </a>
                 </li>
 
                 <li className="NavbarItem">
-                    <a href="/experiences" className="NavbarLink">
+                    <a href="/Leopdoat/experiences" className="NavbarLink">
                         Experiences
                     </a>
                 </li>
 
                 <li className="NavbarItem">
-                    <a href="/more-about-me" className="NavbarLink">
+                    <a href="/Leopdoat/more-about-me" className="NavbarLink">
                         More about me
                     </a>
                 </li>
 
                 <li className="NavbarItem">
-                    <a href="/contact" className="NavbarLink">
+                    <a href="/Leopdoat/contact" className="NavbarLink">
                         Contact
                     </a>
                 </li>
