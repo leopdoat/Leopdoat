@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './Nav.css'
-import Logo from './Logo'
 
 function Nav() {
     const [showBar, setShowBar] = useState(false)
@@ -10,35 +9,34 @@ function Nav() {
 
     return (
         <div className={`Navbar ${showBar ? "showNav" : "hidenav"}`}>
-            <Logo />
             <ul className="NavbarLinks">
                 <li className="NavbarItem">
-                    <a href="/Leopdoat/" className="NavbarLink">
+                    <button className="NavbarLink">
                         Léo-Paul
-                    </a>
+                    </button>
                 </li>
                 <li className="NavbarItem">
-                    <a href="/Leopdoat/skills" className="NavbarLink">
+                    <button className="NavbarLink">
                         Skills
-                    </a>
+                    </button>
                 </li>
 
                 <li className="NavbarItem">
-                    <a href="/Leopdoat/experiences" className="NavbarLink">
+                    <button className="NavbarLink">
                         Experiences
-                    </a>
+                    </button>
                 </li>
 
                 <li className="NavbarItem">
-                    <a href="/Leopdoat/more-about-me" className="NavbarLink">
+                    <button className="NavbarLink">
                         More about me
-                    </a>
+                    </button>
                 </li>
 
                 <li className="NavbarItem">
-                    <a href="/Leopdoat/contact" className="NavbarLink">
+                    <button className="NavbarLink">
                         Contact
-                    </a>
+                    </button>
                 </li>
             </ul>
             <button className='NavbarBurger' onClick={handleShowBar}>

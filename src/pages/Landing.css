@@ -1,0 +1,154 @@
+.MiddlePage {
+    width: 100%;
+    height: 200vh;
+    padding: 6rem 2rem 2rem;
+    background-color: #030621;
+    align-content:baseline;
+    justify-content: center;
+    display: flex;
+}
+
+.Container{
+    max-width: 800PX;
+    position: relative;
+    padding: 3rem 2rem 2rem;
+    background: none;
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.Items {
+    display: grid;
+    grid-template-areas:
+    "desc desc desc desc"
+    "separator separator separator separator"
+    "skills skills skills skills"
+    "frontend backend organization others"
+    "separator2 separator2 separator2 separator2"
+    "exp exp exp exp"
+    ;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.ProfilePic {
+    width: 30px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.Element {
+    background-color: none;
+    padding: 0.5rem 0.5rem 0.5rem;
+    color: #FFF;
+    max-width: 60vw;
+}
+
+.Linked {
+    color: #88A4E6;
+}
+
+.Linked:hover {
+    color: #ffbd59;
+}
+
+.LinkedInLogo {
+    width: 1.5rem;
+    height: 1rem;
+}
+
+.Icon {
+    width: 1.5rem;
+    vertical-align: middle;
+}
+
+.SmallIcon {
+    width: 1.5rem;
+    vertical-align: middle;
+}
+
+.Skills {
+    display:contents;
+    gap: 1rem;
+    color: #FFF;
+}
+
+.SkillElement {
+    display: block;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1111px) {
+  .Items {
+    display: grid;
+    grid-template-areas:
+    "desc"
+    "separator"
+    "skills"
+    "frontend"
+    "backend"
+    "organization"
+    "others"
+    "separator2"
+    "exp"
+    ;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+  #desc {
+    display: none;
+  }
+}
+
+#desc {
+    grid-area: desc;
+    background-color: none;
+}
+
+#separator {
+    grid-area: separator;
+    background-color: none;
+}
+
+#separator2 {
+    grid-area: separator2;
+    background-color: none;
+}
+
+#skills {
+    grid-area: skills;
+    background-color: none;
+}
+
+#frontend {
+    grid-area: frontend;
+    background-color: none;
+}
+
+#backend {
+    grid-area: backend;
+    background-color: none;
+}
+
+#organization {
+    grid-area: organization;
+    background-color: none;
+}
+
+#others {
+    grid-area: others;
+    background-color: none;
+}
