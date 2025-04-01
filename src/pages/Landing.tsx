@@ -56,6 +56,7 @@ const Landing: React.FC = () => {
                   <a className='Linked' href='https://github.com/leopdoat'>- GitHub <img className='Icon' src="./svg/github.svg" /></a>
                   <a className='Linked' href='https://www.docker.com'>- Docker <img className='Icon' src="./svg/docker.svg" /></a>
                   <a className='Linked' href='https://www.postgresql.org'>- PostgreSQL <img className='Icon' src="./svg/postgresql.svg" /></a>
+                <br />
                 </li>
               <hr className="separator" id='separator2'/>
               <li className='Element' id='exp'>
