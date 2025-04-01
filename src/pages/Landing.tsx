@@ -69,15 +69,51 @@ const Landing: React.FC = () => {
                   For the pas few years, I have been studying computer science at <a className='Linked' href='https://www.epitech.eu'>Epitech</a> in Bordeaux.
                   This school is known for its project-based learning, which means that we have to work on projects all year long. 
                   This way of learning has been really helpful for me as I am now able to work on projects by myself.
-                  <br />
-                  For as long as I remember I have always been passionate about computers and technology, that's why I decided to study computer science. 
-                  I was also all my life a big fan of video games and especially Dofus & League of Legends where I even reached the rank Diamond (top 2% of the player base in Europe).
-                  Both of those games helped me in their own way, Dofus is a French MMORPG where I learned how to communicate with other players and also how to manage a guild and how to survive through a quite relevent economy system
-                  while League of Legends thaught me how to think fast and adapt in every situation.
                 </p>
               </li>
               <li className='Element' id='Picture1'>
-                <img className='LeagueRank' src='./images/LeagueRank.png' alt='Léo-Paul Doat' />
+                <img className='EpitechBdx' src='./images/EpitechBdx.jpg' />
+              </li>
+              <li className='Element' id='About2'>
+                  For as long as I remember I have always been passionate about computers and technology, that's why I decided to study computer science. 
+                  I was also all my life a big fan of video games and especially Dofus & League of Legends where I even reached the rank Diamond (top 2% of the player base in Europe).
+                  <br />
+                  <br />
+                  <br />
+                  Both of those games helped me in their own way, Dofus is a French MMORPG where I learned how to communicate with other players and also how to manage a guild but alos how to survive through a quite relevent economy system
+                  while League of Legends thaught me how to think fast and adapt in every situation.
+              </li>
+              <li className='Element' id='Picture2'>
+                <img className='LeagueRank' src='./images/LeagueRank.png' />
+              </li>
+              <li className='Element' id='Picture3'>
+                <img className='LeagueRank' src='./images/Dofus.png' />
+              </li>
+              <li className='Element' id='About3'>
+                <p>
+                  It's almost impossible to try and get to know me without talking about my passion for fishing.
+                  When I was younger, I struggled a lot to be patient and calm, but fishing has helped me a lot to try and think ahead.
+                </p>
+              </li>
+              <li className='Element' id='Picture4'>
+                <img className='LeagueRank' src='./images/Brochet.jpg' />
+              </li>
+              <li className='Element' id='About4'>
+                <p>
+                  For the past 6 years I took every opportunity I could to go fishing in the lakes and rivers around my home, and it payed of ! As you can see on the pictures, I was lucky enough to catch multiple beautyfull fishes, but as a lover of nature, I release every fishes I catch.                </p>
+              </li>
+              <li className='Element' id='Picture5'>
+                <img className='LeagueRank' src='./images/BlackBass.jpg' />
+              </li>
+              <hr className='separator' id='separator4'/>
+              <li className='Element' id='Thanks'>
+                <h1><span style={{"color": "#88A4E6"}}>Thanks for reading !</span></h1>
+                <p>
+                  I hope you enjoyed this website and learned a bit more about me.
+                  Since I am not a professonal designer, I would love to get your feedback on the design and the content of this website.
+                  <br />
+                  If you have any questions or if you want to work with me, please don't hesitate to contact me on  <a className='Linked' href='https://www.linkedin.com/in/léo-paul-doat'>  LinkedIn</a> or by e-mail (leopauldoat@gmail.com).
+                </p>
               </li>
             </ul>
           </div>

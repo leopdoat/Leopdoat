@@ -32,10 +32,13 @@
     "exp exp exp exp"
     "separator3 separator3 separator3 separator3"
     "About1 About1 Picture1 Picture1"
-    "About1 About1 Picture1 Picture1"
     "About2 About2 Picture2 Picture2"
-    "About2 About2 Picture2 Picture2"
-    ;
+    "About2 About2 Picture3 Picture3"
+    "Picture4 Picture4 About3 About3"
+    "About4 About4 Picture5 Picture5"
+    "separator4 separator4 separator4 separator4"
+    "Thanks Thanks Thanks Thanks"
+;
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
@@ -94,7 +97,13 @@
 
 .LeagueRank {
     vertical-align: middle;
-    scale: 0.75;
+    width: 100%;
+}
+
+.EpitechBdx {
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 2rem;
 }
 
 @media screen and (max-width: 1111px) {
@@ -114,7 +123,9 @@
     "About1"
     "Picture1"
     "About2"
-    "Picture2"
+    "Picture3"
+    "About3"
+    "Picrure4"
     ;
     gap: 1rem;
     grid-template-columns: 1fr;
@@ -125,6 +136,11 @@
   #desc {
     display: none;
   }
+
+  #Picture2 {
+    display: none;
+  }
+
 }
 
 #desc {
@@ -147,6 +163,11 @@
     background-color: none;
 }
 
+#separator4 {
+    grid-area: separator4;
+    background-color: none;
+}
+
 #exp {
     grid-area: exp;
     background-color: none;
@@ -162,6 +183,21 @@
     background-color: none;
 }
 
+#About3 {
+    grid-area: About3;
+    background-color: none;
+}
+
+#About4 {
+    grid-area: About4;
+    background-color: none;
+}
+
+#Thanks{
+    grid-area: Thanks;
+    background-color: none;
+}
+
 #Picture1 {
     grid-area: Picture1;
     background-color: none;
@@ -169,6 +205,21 @@
 
 #Picture2 {
     grid-area: Picture2;
+    background-color: none;
+}
+
+#Picture3 {
+    grid-area: Picture3;
+    background-color: none;
+}
+
+#Picture4 {
+    grid-area: Picture4;
+    background-color: none;
+}
+
+#Picture5 {
+    grid-area: Picture5;
     background-color: none;
 }
 
