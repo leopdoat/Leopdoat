@@ -126,6 +126,10 @@
     "Picture3"
     "About3"
     "Picrure4"
+    "About4"
+    "Picture5"
+    "separator4"
+    "Thanks"
     ;
     gap: 1rem;
     grid-template-columns: 1fr;
@@ -138,6 +142,10 @@
   }
 
   #Picture2 {
+    display: none;
+  }
+
+  #Picture4 {
     display: none;
   }
 
