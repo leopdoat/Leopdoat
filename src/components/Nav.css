@@ -57,28 +57,25 @@ button {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: fixed;
-        right: -100vw;
-        bottom: 0;
+        /* right: -100vw; */
+        /* bottom: 0; */
         height: 100vh;
-        padding: 2rem;
+        /* padding: 2rem; */
         visibility: hidden;
-        z-index: 1000;
+    }
+
+    .showNav {
+        height: 100vh;
     }
 
     .showNav .NavbarLinks{
-        width: 100vw;
-        right: 0;
         visibility: visible;
-        z-index: 1001;
-        backdrop-filter: blur(10px);
     }
 
     .NavbarLink {
         display: block;
         padding: 1.5rem;
         font-size: 5vw;
-        z-index: 1002;
     }
 
     .NavbarBurger {

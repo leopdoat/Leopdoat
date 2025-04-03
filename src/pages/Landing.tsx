@@ -1,5 +1,4 @@
 import React from 'react';
-// import { useState } from 'react';
 import ExpCard from '../components/ExpCard.tsx';
 import './Landing.css';
 
@@ -113,7 +112,8 @@ const Landing: React.FC = () => {
                   I hope you enjoyed this website and learned a bit more about me.
                   Since I am not a professonal designer, I would love to get your feedback on the design and the content of this website.
                   <br />
-                  If you have any questions or if you want to work with me, please don't hesitate to contact me on  <a className='Linked' href='https://www.linkedin.com/in/léo-paul-doat'>  LinkedIn</a> or by e-mail (leopauldoat@gmail.com).
+                  If you have any questions or if you want to work with me, please don't hesitate to contact me on 
+                  <a className='Linked' href='https://www.linkedin.com/in/léo-paul-doat'>  LinkedIn</a> or by e-mail (leopauldoat@gmail.com).
                 </p>
               </li>
             </ul>
